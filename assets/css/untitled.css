@@ -1,0 +1,45 @@
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 16PX;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 50px;
+  }
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #c8efe8 0%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #f22eaf 0%, rgba(198,156,126,0.22) 100%);
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #f22e4a 0%, #45dba5 100%);
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
